@@ -1,0 +1,14 @@
+<nav class="nav" role="navigation">
+    <div class="logo">
+        <a href="/">TC</a>
+    </div>
+    <div class="links">
+        <ul>
+            {{#each site.data.nav as |navItem|}}
+                <li>
+                    <a href={{navItem.path}} class="nav-link {{#if (eq navItem.name ../activeLink)}}active{{/if}}">{{navItem.name}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</nav>

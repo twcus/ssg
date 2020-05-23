@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{!-- head should be a partial or template --}}
+        <meta charset="utf-8">
+        <title>My SSG</title>
+        <meta name="description" content="This is a static site generator">
+        <meta name="author" content="Thomas Custer">
+    </head>
+    <body>
+        {{> nav activeLink="Projects"}}
+        <header>
+            <div>
+                <h1>Thomas Custer</h1>
+                <h2>Developer</h2>
+            </div>
+        </header>
+        <main>
+            <h1>Here's my projects</h1>
+        </main>
+        <footer>
+            <p>Copyright Thomas Custer</p>
+            <p>Created with SSG</p>
+        </footer>
+    </body>
+</html>

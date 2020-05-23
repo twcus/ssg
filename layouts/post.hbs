@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{!-- head should be a partial or template --}}
+        <meta charset="utf-8">
+        {{!-- TODO title and description should come from the post's frontmatter --}}
+        <title>{{post.title}}</title>
+        <meta name="description" content={{post.description}}>
+        <meta name="author" content="Thomas Custer">
+    </head>
+    <body>
+        {{> nav activeLink="Projects"}}
+        <header>
+            <div>
+                {{!-- TODO title and description should come from the post's frontmatter --}}
+                <h1>{{post.title}}</h1>
+                <h2>{{post.description}}</h2>
+            </div>
+        </header>
+        <main>
+            {{{post.content}}}
+        </main>
+        <footer>
+            <p>Copyright Thomas Custer</p>
+            <p>Created with SSG</p>
+        </footer>
+    </body>
+</html>
