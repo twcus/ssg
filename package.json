@@ -27,5 +27,8 @@
     "gray-matter": "^4.0.2",
     "handlebars": "^4.7.6",
     "markdown-it": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
   }
 }
