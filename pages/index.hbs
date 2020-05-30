@@ -6,10 +6,11 @@
         <title>My SSG</title>
         <meta name="description" content="This is a static site generator">
         <meta name="author" content="Thomas Custer">
+        <link rel="stylesheet" href="{{site.assets.[assets/css/styles.css].path}}">
     </head>
     <body>
         {{> nav activeLink="Home"}}
-        <header>
+        <header class="header">
             <div>
                 <h1>Thomas Custer</h1>
                 <h2>Developer</h2>

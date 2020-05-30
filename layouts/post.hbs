@@ -3,9 +3,9 @@
     <head>
         {{!-- head should be a partial or template --}}
         <meta charset="utf-8">
-        {{!-- TODO title and description should come from the page's frontmatter --}}
-        <title>{{page.title}}</title>
-        <meta name="description" content={{page.description}}>
+        {{!-- TODO title and description should come from the content's frontmatter --}}
+        <title>{{content.title}}</title>
+        <meta name="description" content={{content.description}}>
         <meta name="author" content="Thomas Custer">
     </head>
     <body>
@@ -13,12 +13,12 @@
         <header>
             <div>
                 {{!-- TODO title and description should come from the page's frontmatter --}}
-                <h1>{{page.title}}</h1>
-                <h2>{{page.description}}</h2>
+                <h1>{{content.title}}</h1>
+                <h2>{{content.description}}</h2>
             </div>
         </header>
         <main>
-            {{{content}}}
+            {{{content.html}}}
         </main>
         <footer>
             <p>Copyright Thomas Custer</p>
