@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {{!-- head should be a partial or template --}}
-        <meta charset="utf-8">
-        {{!-- TODO title and description should come from the content's frontmatter --}}
-        <title>{{content.title}}</title>
-        <meta name="description" content={{content.description}}>
-        <meta name="author" content="Thomas Custer">
-    </head>
+    {{> head}}
     <body>
         {{> nav activeLink="Projects"}}
         <header>

@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        {{!-- head should be a partial or template --}}
-        <meta charset="utf-8">
-        <title>My SSG</title>
-        <meta name="description" content="This is a static site generator">
-        <meta name="author" content="Thomas Custer">
-        <link rel="stylesheet" href="{{site.assets.[assets/css/styles.css].path}}">
-    </head>
+    {{> head}}
     <body>
         {{> nav activeLink="Home"}}
         <header class="header">

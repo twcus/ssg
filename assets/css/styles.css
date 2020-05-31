@@ -1,8 +1,49 @@
-.header {
-    background-color: red;
+body {
+    margin: 0;
 }
 
-.links {
-    background-color: green;
-    color: lightyellow;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E3138;
+}
+
+.nav .logo a {
+    display: flex;
+}
+
+.nav .logo svg {
+    display: flex;
+    height: 50px;
+    stroke: white;
+}
+
+#logoipsum path {
+    fill: white;
+}
+
+.nav .links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .links li {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav .links a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav .links a:hover {
+    color: #E5C7A4;
+}
+
+.nav .links a.active {
+    border-bottom: 4px solid #E5C7A4;
 }
