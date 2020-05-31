@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/twcus/ssg#readme",
   "dependencies": {
+    "chokidar": "^3.4.0",
     "gray-matter": "^4.0.2",
     "handlebars": "^4.7.6",
+    "live-server": "^1.2.1",
     "markdown-it": "^10.0.0",
     "md5-file": "^5.0.0"
   },
