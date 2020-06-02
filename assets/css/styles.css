@@ -45,5 +45,6 @@ body {
 }
 
 .nav .links a.active {
+    color: #E5C7A4;
     border-bottom: 4px solid #E5C7A4;
 }
