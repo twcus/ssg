@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #e9e3d8;
 }
 
 .nav {
@@ -47,4 +48,25 @@ body {
 .nav .links a.active {
     color: #E5C7A4;
     border-bottom: 4px solid #E5C7A4;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E8EBF7;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    background-color: #e9e3d8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
