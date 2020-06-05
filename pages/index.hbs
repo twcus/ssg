@@ -17,8 +17,16 @@
             {{/if}}
             <section>
                 <header>
-                    <h3>Abdfdfdft</h3>
+                    <h3>Posts</h3>
                 </header>
+                <ul class="post-list">
+                    {{#each site.content}}
+                        <li class="list-item">
+                            <h4>{{this.title}}</h4>
+                            <p>{{this.description}}</p>
+                        </li>
+                    {{/each}}
+                </ul>
             </section>
             <section>
                 <header>

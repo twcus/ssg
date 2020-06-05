@@ -70,3 +70,19 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-list .list-item {
+    color: white;
+    background-color: #2E3138;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    align-items: center;
+    margin: 8px;
+    padding: 8px;
+}

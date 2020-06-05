@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/twcus/ssg#readme",
   "dependencies": {
+    "@node-minify/core": "^5.3.0",
+    "@node-minify/csso": "^5.3.0",
+    "@node-minify/html-minifier": "^5.3.0",
+    "@node-minify/uglify-es": "^5.3.0",
     "chokidar": "^3.4.0",
     "gray-matter": "^4.0.2",
     "handlebars": "^4.7.6",
