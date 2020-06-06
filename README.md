@@ -30,6 +30,8 @@ ssg
 ## Roadmap
 * Robust CLI options
 * Detailed logging
+* Dates for content
+* Content tags
 * Improved error handling
 * Tests
 * Pagination
